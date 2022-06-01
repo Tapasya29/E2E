@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="178343" started-at="2021-05-30T16:45:46 IST" finished-at="2021-05-30T16:48:44 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="178343" started-at="2021-05-30T16:45:46 IST" finished-at="2021-05-30T16:48:44 IST">
+      <class name="eDoctorPro.E2EProject.PageTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:eDoctorPro.E2EProject.PageTitle@f8c1ddd]" name="initialize" is-config="true" duration-ms="24866" started-at="2021-05-30T16:45:46 IST" finished-at="2021-05-30T16:46:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="gettitle()[pri:0, instance:eDoctorPro.E2EProject.PageTitle@f8c1ddd]" name="gettitle" duration-ms="1484" started-at="2021-05-30T16:47:07 IST" finished-at="2021-05-30T16:47:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:eDoctorPro.E2EProject.PageTitle@f8c1ddd]" name="teardown" is-config="true" duration-ms="39402" started-at="2021-05-30T16:47:59 IST" finished-at="2021-05-30T16:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- eDoctorPro.E2EProject.PageTitle -->
+      <class name="eDoctorPro.E2EProject.basepagenavigation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:eDoctorPro.E2EProject.basepagenavigation@1d082e88]" name="initialize" is-config="true" duration-ms="3243" started-at="2021-05-30T16:46:11 IST" finished-at="2021-05-30T16:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePage(java.lang.String,java.lang.String)[pri:0, instance:eDoctorPro.E2EProject.basepagenavigation@1d082e88]" name="HomePage" duration-ms="36384" started-at="2021-05-30T16:47:09 IST" data-provider="getData" finished-at="2021-05-30T16:47:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeepdeshmukh2009@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="HomePage(java.lang.String,java.lang.String)[pri:0, instance:eDoctorPro.E2EProject.basepagenavigation@1d082e88]" name="HomePage" duration-ms="13205" started-at="2021-05-30T16:47:45 IST" data-provider="getData" finished-at="2021-05-30T16:47:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:eDoctorPro.E2EProject.basepagenavigation@1d082e88]" name="teardown" is-config="true" duration-ms="5212" started-at="2021-05-30T16:48:38 IST" finished-at="2021-05-30T16:48:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- eDoctorPro.E2EProject.basepagenavigation -->
+      <class name="eDoctorPro.E2EProject.getNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:eDoctorPro.E2EProject.getNavigationBar@7d3a22a9]" name="initialize" is-config="true" duration-ms="51890" started-at="2021-05-30T16:46:14 IST" finished-at="2021-05-30T16:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:eDoctorPro.E2EProject.getNavigationBar@7d3a22a9]" name="basePageNavigation" duration-ms="442" started-at="2021-05-30T16:47:09 IST" finished-at="2021-05-30T16:47:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:eDoctorPro.E2EProject.getNavigationBar@7d3a22a9]" name="teardown" is-config="true" duration-ms="980" started-at="2021-05-30T16:48:43 IST" finished-at="2021-05-30T16:48:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- eDoctorPro.E2EProject.getNavigationBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
